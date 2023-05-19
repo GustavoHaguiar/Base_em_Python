@@ -1,0 +1,23 @@
+Jogo da forca
+
+Gerador de senhas
+
+Jogo da velha X
+
+Arquivo de criptografia X
+
+Conversor binario
+
+renomeador de arquivos em massa
+
+Codificador/decodificador de QRCode
+
+Solucionador de Sudoku (estudar metodo de solução)
+
+Jogo do 21
+
+(Fazer uns desenhos com Turtle)
+
+Escreve um numero por extenso de 0 a 999
+
+Uma biblioteca geral feita em OOP
