@@ -1,0 +1,3 @@
+function Redirect(){
+    alert("Hi!")
+}

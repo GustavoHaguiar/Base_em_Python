@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(255, 166, 0, 0.541);
+}
+
+#lista{
+    color: rgba(255, 166, 0, 0);
+}
+
+.tagverde{
+    color: green;
+}
+
+#links{
+    color: rgb(10, 121, 155);
+}
+
+#Titulo{
+    color: black;
+    font-size: 50px;    
+}
+
+#Perguntas{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#textNotFound{
+    color: white;
+}
+
+#bodyTraduz{
+    background-color: black;
+}
+

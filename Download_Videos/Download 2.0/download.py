@@ -9,17 +9,20 @@ root.title('Download videos')
 root.geometry("700x400")
 
 
-def download(directory):
+def Download(directory):
     new_link = link.get()
     yt = YouTube(new_link)
     messagebox.showinfo("message","wait a moment...")
-    stream = yt.streams.get_by_itag(22)
+    yt.streams.filter(file_extension='mp4')
+    print(yt.streams)
+    stream = yt.streams.get_by_itag(18)
+    print(stream)
     stream.download(output_path=directory)
 
 
 def settings():
     directory = filedialog.askdirectory(master=root, title="Directory download")
-    download(directory)
+    Download(directory)
     messagebox.showinfo("message","download complete")
 
 
